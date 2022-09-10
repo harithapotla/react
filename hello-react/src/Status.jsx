@@ -1,4 +1,5 @@
 import React from "react";
+import Ex from "./ex";
 
 function FStatus(){
     var [name,setname]=React.useState([
@@ -30,9 +31,7 @@ function FStatus(){
             <ul>
                 {
                     name.map((x,i)=>{
-                        return(<li className={x.status?'blueback':'redback'}>{x.title}
-                        <button onClick={()=>{toggle(i)}}>{x.status?'undo':'done'}</button>
-                        </li>)
+                        return(<Ex x={x} i={i} toggle={toggle}></Ex>)
                     })
                 }
             </ul>

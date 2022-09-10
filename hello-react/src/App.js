@@ -11,6 +11,7 @@ import Task from './Task';
 import TodosStatus from './TodolistwithStatus';
 import ConditionalStyle from './ConditionalStyle';
 import FStatus from './Status';
+import CountClass from './CountClass';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
   return (
     
     <div className="betterview">
-      <FStatus/>
+    <CountClass/>  
+    <FStatus/>
       <ConditionalStyle/>
       <h1>Welcome to the react tutorial</h1>
       <h1>{firstname}</h1>
