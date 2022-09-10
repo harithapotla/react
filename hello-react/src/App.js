@@ -7,6 +7,10 @@ import { useState } from 'react';
 import { useCounter } from './hooks';
 import EventHandling from './EventHand';
 import HCounter from './HCounter';
+import Task from './Task';
+import TodosStatus from './TodolistwithStatus';
+import ConditionalStyle from './ConditionalStyle';
+import FStatus from './Status';
 
 
 function App() {
@@ -14,12 +18,16 @@ function App() {
   return (
     
     <div className="betterview">
+      <FStatus/>
+      <ConditionalStyle/>
       <h1>Welcome to the react tutorial</h1>
       <h1>{firstname}</h1>
       <EventHandling/>
       <Todolist/>
       <Counter/>
       <HCounter/>
+      <Task/>
+      <TodosStatus/>
       
     </div>
     
