@@ -12,6 +12,7 @@ import TodosStatus from './TodolistwithStatus';
 import ConditionalStyle from './ConditionalStyle';
 import FStatus from './Status';
 import CountClass from './CountClass';
+import TodolistClass from './TodolistClass';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   return (
     
     <div className="betterview">
+    <TodolistClass/>
     <CountClass/>  
     <FStatus/>
       <ConditionalStyle/>
