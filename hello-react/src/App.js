@@ -23,8 +23,8 @@ function App() {
     
     <div className="betterview">
     <Countries/>
-    {/*<TodolistClass/>
-    <CountClass/>  
+    <TodolistClass/>
+    {/*<CountClass/>  
     <FStatus/>
       <ConditionalStyle/>
       <h1>Welcome to the react tutorial</h1>
